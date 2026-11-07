@@ -1,0 +1,22 @@
+# 개인용 Claude Code 메모
+CLAUDE.local.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# SAM
+.aws-sam/
+samconfig.local.toml
+
+# 시크릿·자격증명 (실제 값은 SSM에만)
+.env
+*.pem
+credentials
+
+# IDE
+.vscode/
+.idea/
