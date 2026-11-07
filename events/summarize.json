@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "messageId": "00000000-0000-0000-0000-000000000001",
+      "receiptHandle": "dummy",
+      "body": "{\"board_id\": \"cse_notice\", \"post_id\": 1234, \"title\": \"2026학년도 2학기 장학금 신청 안내\", \"url\": \"https://example.ac.kr/notice/1234\", \"posted_at\": \"2026-11-06\"}",
+      "attributes": {"ApproximateReceiveCount": "1"},
+      "messageAttributes": {},
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:summarize-queue",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

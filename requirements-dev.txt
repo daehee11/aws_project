@@ -1,0 +1,5 @@
+# 로컬 개발·테스트용. Lambda 런타임 의존성(bs4, google-genai, pynacl)은 layers/에서 B가 관리.
+boto3>=1.35
+moto[dynamodb,sqs,ssm]>=5.0
+pytest>=8.3
+ruff>=0.8
